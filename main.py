@@ -32,7 +32,7 @@ async def main():
 
 
     async def Fermer(parent):
-        print("Mise en marche du moteur")
+        print("Fermeture des leds")
         await noeud_variable_rouge.set_value(False)
         await noeud_variable_vert.set_value(False)
         await noeud_variable_bleu.set_value(False)
